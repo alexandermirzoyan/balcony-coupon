@@ -1,0 +1,55 @@
+@font-face {
+    font-family: hand-write;
+    src: url('./assets/fonts/ComforterBrush-Regular.ttf');
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('./assets/fonts/Roboto-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    font-family: roboto, sans-serif;
+    color: #002b59;
+}
+
+.background-container {
+    background-image: url("./assets/images/white-paper-texture.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 15%;
+}
+
+.content-container {
+    padding: 20px;
+    border: 5px solid #002b59;
+    border-radius: 20px;
+}
+
+.page-title {
+    font-family: hand-write, serif;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.valid-dates-container {
+    margin-top: 30px;
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+.valid-dates-container > *:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.seal-image {
+    width: 200px;
+}
